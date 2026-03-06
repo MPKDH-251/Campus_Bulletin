@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Event</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="add.js"></script>
+</head>
+<!-- College Navbar -->
+<nav class="navbar">
+  <div class="navbar-content">
+    <img src="https://upload.wikimedia.org/wikipedia/en/7/72/Gec_Sreekrishnapuram_Logo.png" alt="College Logo" class="college-logo">
+    <span class="college-name">Government Engineering College, Palakkad</span>
+  </div>
+</nav>
+<body>
+  <div class="container">
+    <h2>➕ Add New Event</h2>
+    <input id="title" type="text" placeholder="Event Title" required>
+    <input id="organiser" type="text" placeholder="Organising Body" required>
+    <input id="desc" type="text" placeholder="Description">
+    <input id="date" type="date" required>
+    <input id="time" type="time" required>
+    <input id="location" type="text" placeholder="Location" required>
+    <button id="submitEvent">Submit</button>
+    <button onclick="window.location.href='index.html'">Back</button>
+  </div>
+</body>
+</html>
